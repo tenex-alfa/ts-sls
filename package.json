@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
+    "@types/node": "^12.12.7",
     "serverless-dotenv-plugin": "^2.1.1",
     "serverless-offline-lambda": "^1.0.4",
     "chai": "^4.2.0",
