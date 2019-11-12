@@ -1,0 +1,26 @@
+{
+  "name": "@tenex/ts-sls",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist",
+  "scripts": {
+    "test": "mocha -r ts-node/register tests/**/*",
+    "build": "tsc",
+    "start": "tsc --watch > ts.log & sls offline"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "serverless-dotenv-plugin": "^2.1.1",
+    "serverless-offline-lambda": "^1.0.4",
+    "chai": "^4.2.0",
+    "chalk": "^2.4.2",
+    "mocha": "^6.2.0",
+    "serverless-webpack": "^5.3.1",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3",
+    "webpack": "^4.40.2",
+    "webpack-node-externals": "^1.7.2"
+  }
+}

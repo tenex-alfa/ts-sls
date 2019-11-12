@@ -1,0 +1,6 @@
+handler: dist/routes/hello.default
+events:
+  - http:
+      path: hello
+      method: get
+      cors: true
